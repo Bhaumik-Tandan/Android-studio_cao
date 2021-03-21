@@ -38,6 +38,7 @@ public class ares extends AppCompatActivity {
         System.out.print(p+"\n"+d+"\n");
         for(int i=l-1;i>=0;i--)
         {
+            int n=0;
             int r=Character.getNumericValue(p.charAt(i))^Character.getNumericValue(d.charAt(i));
             int c=Character.getNumericValue(p.charAt(i))&Character.getNumericValue(d.charAt(i));
             if(c==0 && r==0)
@@ -55,7 +56,10 @@ public class ares extends AppCompatActivity {
                         continue;
                     }
             if(c!=1)
+            {
                 s=s.substring(0,i)+'1'+s.substring(i+1);
+                n++;
+            }
             else
             {
                 if(i>0)
@@ -63,9 +67,8 @@ public class ares extends AppCompatActivity {
                 else
                     s='0'+s.substring(i+1);
             }
-            if(s.charAt(i)=='1')
+            if(s.charAt(i)=='1' && n==0)
                 s='0'+s.substring(i+1);
-
         }
         return s;
 
@@ -84,26 +87,31 @@ public class ares extends AppCompatActivity {
         TextView tv = new TextView(this);
         tv.setWidth(190);
         tv.setText(" ");
+        tv.setGravity(Gravity.CENTER_HORIZONTAL);
         p.addView(tv);
         int a=Integer.toBinaryString(mp).length();
         String s="0";
         TextView tvp = new TextView(this);
         tvp.setWidth(60);
         tvp.setText(s);
+        tvp.setGravity(Gravity.CENTER_HORIZONTAL);
         p.addView(tvp);
        for(int t=1;t<a;t++)
             s+="0";
         TextView tvpi = new TextView(this);
         tvpi.setText(s);
         tvpi.setWidth(300);
+        tvpi.setGravity(Gravity.CENTER_HORIZONTAL);
         p.addView(tvpi);
         TextView tvpii = new TextView(this);
         s=Integer.toBinaryString(mp);
         tvpii.setText(s);
         tvpii.setWidth(300);
+        tvpii.setGravity(Gravity.CENTER_HORIZONTAL);
         p.addView(tvpii);
         TextView tvpiii = new TextView(this);
         tvpiii.setText(Integer.toBinaryString(a));
+        tvpiii.setGravity(Gravity.CENTER_HORIZONTAL);
         p.addView(tvpiii);
         tal.addView(p);
         int lk=0,e=0,l,temp;
@@ -124,7 +132,8 @@ public class ares extends AppCompatActivity {
                TextView ea = new TextView(this);
                ea.setWidth(190);
                ea.setText("ADD");
-               n.setMinimumHeight(250);
+               n.setMinimumHeight(150);
+               ea.setGravity(Gravity.CENTER_HORIZONTAL);
                n.addView(ea);
                TextView eca = new TextView(this);
                lk+=mu;
@@ -132,9 +141,9 @@ public class ares extends AppCompatActivity {
                    e=1;
                eca.setText(Integer.toString(e));
                eca.setWidth(60);
+               eca.setGravity(Gravity.CENTER_HORIZONTAL);
                n.addView(eca);
                TextView aca = new TextView(this);
-               lo=Integer.toBinaryString(lk);
                s=rsa(mu,l)+"\n";
                if(e==1) {
                    lo = add(lk - mu, mu, l);
@@ -144,6 +153,7 @@ public class ares extends AppCompatActivity {
                    lo=rsa(lk,l);
                aca.setText(s+lo);
                aca.setWidth(300);
+               aca.setGravity(Gravity.CENTER_HORIZONTAL);
                n.addView(aca);
                tal.addView(n);
            }
@@ -151,21 +161,25 @@ public class ares extends AppCompatActivity {
            TextView ea = new TextView(this);
            ea.setWidth(190);
            ea.setText("SHIFT");
+           ea.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(ea);
            TextView eca = new TextView(this);
            eca.setText("0");
            eca.setWidth(60);
+           eca.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(eca);
            TextView aca = new TextView(this);
            lo=rsa(lk,l);
            aca.setText(e+lo.substring(0,lo.length()-1));
            lk=Integer.parseInt(e+lo.substring(0,lo.length()-1),2);
            aca.setWidth(300);
+           aca.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(aca);
            TextView qca = new TextView(this);
            q=lo.charAt(lo.length()-1)+q.substring(0,q.length()-1);
            qca.setText(q);
            qca.setWidth(300);
+           qca.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(qca);
            a--;
            e=0;
@@ -173,6 +187,7 @@ public class ares extends AppCompatActivity {
            lo=rsa(a,Integer.toBinaryString(l).length());
            sca.setText(lo);
            sca.setWidth(130);
+           sca.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(sca);
            tal.addView(n);
        }

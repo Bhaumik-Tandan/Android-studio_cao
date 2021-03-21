@@ -5,16 +5,16 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Binary Calculator"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CAO">
         <activity android:name=".ares"
-            android:label="Multiply Result"
+            android:label="Multiply Result(19BIT0292)"
             android:parentActivityName=".add"></activity>
         <activity
             android:name=".add"
-            android:label="Multiply"
+            android:label="Menu(19BIT0292)"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

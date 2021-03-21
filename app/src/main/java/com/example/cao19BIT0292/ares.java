@@ -84,6 +84,9 @@ public class ares extends AppCompatActivity {
         int mp=Integer.parseInt(m);
         TableLayout tal = (TableLayout) findViewById(R.id.tableres);
         TableRow p=new TableRow(this);
+        TextView rel =  findViewById(R.id.res);
+        rel.setText("Result= "+mu*mp+"\nIn Binary= "+(Integer.toBinaryString(mu*mp)));
+        rel.setGravity(Gravity.CENTER_HORIZONTAL);
         TextView tv = new TextView(this);
         tv.setWidth(190);
         tv.setText(" ");

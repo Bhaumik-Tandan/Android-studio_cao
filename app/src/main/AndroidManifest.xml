@@ -9,13 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CAO">
-        <activity android:name=".ares"
+        <activity android:name=".Second"
+            android:label="INTPUT TYPE(19BIT0292)"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".ares"
             android:label="Multiply Result(19BIT0292)"
-            android:parentActivityName=".add"></activity>
+            android:parentActivityName=".add" />
         <activity
             android:name=".add"
             android:label="Menu(19BIT0292)"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".Second" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

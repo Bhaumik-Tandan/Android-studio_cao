@@ -15,7 +15,11 @@
         <activity
             android:name=".ares"
             android:label="Multiply Result(19BIT0292)"
+
             android:parentActivityName=".Second" />
+
+      
+
         <activity
             android:name=".add"
             android:label="Menu(19BIT0292)"

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cao19BIT0292"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Binary Calculator"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CAO" >
+        <activity
+            android:name="com.example.cao19BIT0292.Second"
+            android:label="INTPUT TYPE(19BIT0292)"
+            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
+        <activity
+            android:name="com.example.cao19BIT0292.ares"
+            android:label="Multiply Result(19BIT0292)"
+            android:parentActivityName="com.example.cao19BIT0292.Second" />
+        <activity
+            android:name="com.example.cao19BIT0292.add"
+            android:label="Menu(19BIT0292)"
+            android:parentActivityName="com.example.cao19BIT0292.Second" />
+        <activity android:name="com.example.cao19BIT0292.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

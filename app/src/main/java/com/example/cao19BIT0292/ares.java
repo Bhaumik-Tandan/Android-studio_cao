@@ -29,49 +29,16 @@ public class ares extends AppCompatActivity {
     static String add(int a,int b,int l)
     {
         String s="";
-        for(int i=0;i<l;i++)
-        {
-            s+=0;
-        }
         String p=rsa(a,l);
         String d=rsa(b,l);
-        System.out.print(p+"\n"+d+"\n");
-        for(int i=l-1;i>=0;i--)
-        {
-            int n=0;
-            int r=Character.getNumericValue(p.charAt(i))^Character.getNumericValue(d.charAt(i));
-            int c=Character.getNumericValue(p.charAt(i))&Character.getNumericValue(d.charAt(i));
-            if(c==0 && r==0)
-                continue;
-            if(i>0)
-                if(s.charAt(i)=='1')
-                    if(p.charAt(i)=='0' || d.charAt(i)=='0')
-                    {
-                        s=s.substring(0,i-1)+'1'+'0'+s.substring(i+1);
-                        continue;
-                    }
-                    else
-                    {
-                        s=s.substring(0,i-1)+'1'+'1'+s.substring(i+1);
-                        continue;
-                    }
-            if(c!=1)
-            {
-                s=s.substring(0,i)+'1'+s.substring(i+1);
-                n++;
-            }
-            else
-            {
-                if(i>0)
-                    s=s.substring(0,i-1)+'1'+'0'+s.substring(i+1);
-                else
-                    s='0'+s.substring(i+1);
-            }
-            if(s.charAt(i)=='1' && n==0)
-                s='0'+s.substring(i+1);
-        }
-        return s;
-
+        int c=0;
+        l-=1;
+        while(l>=0){
+            a=(Character.getNumericValue((d.charAt(l)))^(Character.getNumericValue((p.charAt(l)))))^c;
+            c=(Character.getNumericValue((d.charAt(l)))&(Character.getNumericValue((p.charAt(l)))))|(c&((Character.getNumericValue((p.charAt(l)))^Character.getNumericValue((d.charAt(l))))));
+            d=d.substring(0,l)+Integer.toString(a)+d.substring(l+1);
+        l-=1;}
+        return d;
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {

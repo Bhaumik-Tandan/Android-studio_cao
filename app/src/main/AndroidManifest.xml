@@ -9,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CAO">
-        <activity android:name=".Second"
+        <activity
+            android:name=".BOOTH_MULTIPLICATION"
+            android:label="@string/title_activity_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n"
+            android:theme="@style/Theme.CAO.NoActionBar"></activity>
+        <activity
+            android:name=".Second"
             android:label="INTPUT TYPE(19BIT0292)"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".ares"
             android:label="Multiply Result(19BIT0292)"
-
             android:parentActivityName=".Second" />
-
-      
-
         <activity
             android:name=".add"
             android:label="Menu(19BIT0292)"

@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -27,17 +28,31 @@ public class add extends AppCompatActivity {
         String d1= a1.getText().toString();
         String d2= a2.getText().toString();
         int f=0;
-        if(c=="2")
+        if(c.equals("2"))
         {
+            try {
+
                 int o1 = Integer.parseInt(d1, 2);
                 int o2 = Integer.parseInt(d2, 2);
                 d1=Integer.toString(o1);
-                d2=Integer.toString(o1);
+                d2=Integer.toString(o2);
+            }
+            catch (Exception e)
+            {
+                Context context = getApplicationContext();
+                CharSequence text = "ONLY 0 and 1 allowed!";
+                int duration = Toast.LENGTH_SHORT;
+
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
+                f=1;
+            }
+
         }
-        if(f==0) {
+        if(f==0){
             i.putExtra(e1, d1);
             i.putExtra(e2, d2);
-            startActivity(i);
-        }
+            startActivity(i);}
+
     }
 }

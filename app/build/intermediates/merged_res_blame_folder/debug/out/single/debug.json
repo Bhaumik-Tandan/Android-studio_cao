@@ -16,6 +16,10 @@
         "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\activity_add.xml"
     },
     {
+        "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\fragment_second.xml"
+    },
+    {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "D:\\app\\Android-studio_cao\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
     },
@@ -40,6 +44,10 @@
         "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n.xml.flat",
+        "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\activity_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n.xml"
+    },
+    {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -56,12 +64,20 @@
         "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\activity_second.xml"
     },
     {
+        "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n.xml.flat",
+        "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\content_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n.xml"
     },
     {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -78,6 +94,10 @@
     {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ares.xml.flat",
         "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\activity_ares.xml"
+    },
+    {
+        "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\fragment_first.xml"
     },
     {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",

@@ -49,39 +49,47 @@ public class ares extends AppCompatActivity {
         int mu=Integer.parseInt(m);
         m=i.getStringExtra(add.e2);
         int mp=Integer.parseInt(m);
-        TableLayout tal = (TableLayout) findViewById(R.id.tableres);
-        TableRow p=new TableRow(this);
-        TextView rel =  findViewById(R.id.res);
+        LinearLayout tal = (LinearLayout) findViewById(R.id.res);
+        LinearLayout p = new LinearLayout(this);
+        TextView rel =  findViewById(R.id.asd);
         rel.setText("Result= "+mu*mp+"\nIn Binary= "+(Integer.toBinaryString(mu*mp)));
         rel.setGravity(Gravity.CENTER_HORIZONTAL);
+        p.setOrientation(LinearLayout.HORIZONTAL);
+        p.setWeightSum(450);
         TextView tv = new TextView(this);
-        tv.setWidth(190);
         tv.setText(" ");
+        tv.setWidth(0);
+        tv.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,104));
         tv.setGravity(Gravity.CENTER_HORIZONTAL);
         p.addView(tv);
         int a=Integer.toBinaryString(mp).length();
         String s="0";
         TextView tvp = new TextView(this);
-        tvp.setWidth(60);
+        tvp.setWidth(0);
+        tvp.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,10));
         tvp.setText(s);
         tvp.setGravity(Gravity.CENTER_HORIZONTAL);
         p.addView(tvp);
        for(int t=1;t<a;t++)
             s+="0";
         TextView tvpi = new TextView(this);
+        tvpi.setWidth(0);
         tvpi.setText(s);
-        tvpi.setWidth(300);
+        tvpi.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,123));
         tvpi.setGravity(Gravity.CENTER_HORIZONTAL);
         p.addView(tvpi);
         TextView tvpii = new TextView(this);
         s=Integer.toBinaryString(mp);
+        tvpii.setWidth(0);
         tvpii.setText(s);
-        tvpii.setWidth(300);
+        tvpii.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,123));
         tvpii.setGravity(Gravity.CENTER_HORIZONTAL);
         p.addView(tvpii);
         TextView tvpiii = new TextView(this);
+        tvpiii.setWidth(0);
         tvpiii.setText(Integer.toBinaryString(a));
         tvpiii.setGravity(Gravity.CENTER_HORIZONTAL);
+        tvpiii.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,90));
         p.addView(tvpiii);
         tal.addView(p);
         int lk=0,e=0,l,temp;
@@ -92,17 +100,19 @@ public class ares extends AppCompatActivity {
         else
             l=Integer.toBinaryString(mp).length();
         String q=Integer.toBinaryString(mp);
-       while(a!=0)
+        while(a!=0)
        {
            e=0;
            String lo;
            if(q.charAt(q.length()-1)=='1')
            {
-               TableRow n=new TableRow(this);
+               LinearLayout n = new LinearLayout(this);
+               n.setWeightSum(450);
                TextView ea = new TextView(this);
-               ea.setWidth(190);
+               ea.setWidth(0);
+               ea.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,104));
                ea.setText("ADD");
-               n.setMinimumHeight(150);
+               n.setMinimumHeight(100);
                ea.setGravity(Gravity.CENTER_HORIZONTAL);
                n.addView(ea);
                TextView eca = new TextView(this);
@@ -110,7 +120,8 @@ public class ares extends AppCompatActivity {
                if(Integer.toBinaryString(lk).length()>l)
                    e=1;
                eca.setText(Integer.toString(e));
-               eca.setWidth(60);
+               eca.setWidth(0);
+               eca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,10));
                eca.setGravity(Gravity.CENTER_HORIZONTAL);
                n.addView(eca);
                TextView aca = new TextView(this);
@@ -122,33 +133,39 @@ public class ares extends AppCompatActivity {
                else
                    lo=rsa(lk,l);
                aca.setText(s+lo);
-               aca.setWidth(300);
+               aca.setWidth(0);
+               aca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,123));
                aca.setGravity(Gravity.CENTER_HORIZONTAL);
                n.addView(aca);
                tal.addView(n);
            }
-           TableRow n=new TableRow(this);
+           LinearLayout n = new LinearLayout(this);
+           n.setWeightSum(450);
            TextView ea = new TextView(this);
-           ea.setWidth(190);
+           ea.setWidth(0);
+//           ea.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,111));
            ea.setText("SHIFT");
            ea.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(ea);
            TextView eca = new TextView(this);
            eca.setText("0");
-           eca.setWidth(60);
+           eca.setWidth(0);
+//           eca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,25));
            eca.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(eca);
            TextView aca = new TextView(this);
            lo=rsa(lk,l);
            aca.setText(e+lo.substring(0,lo.length()-1));
            lk=Integer.parseInt(e+lo.substring(0,lo.length()-1),2);
-           aca.setWidth(300);
+           aca.setWidth(0);
+//           aca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,179));
            aca.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(aca);
            TextView qca = new TextView(this);
            q=lo.charAt(lo.length()-1)+q.substring(0,q.length()-1);
            qca.setText(q);
-           qca.setWidth(300);
+           qca.setWidth(0);
+//           qca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,179));
            qca.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(qca);
            a--;
@@ -156,9 +173,15 @@ public class ares extends AppCompatActivity {
            TextView sca = new TextView(this);
            lo=rsa(a,Integer.toBinaryString(l).length());
            sca.setText(lo);
-           sca.setWidth(130);
+           aca.setWidth(0);
+//           aca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,87));
            sca.setGravity(Gravity.CENTER_HORIZONTAL);
            n.addView(sca);
+           ea.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,104));
+           eca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,30));
+           aca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,130));
+           qca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,123));
+           sca.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,90));
            tal.addView(n);
        }
     }

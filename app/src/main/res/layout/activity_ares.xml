@@ -6,77 +6,94 @@
     android:layout_height="match_parent"
     tools:context=".addres">
 
-    <TableLayout
-        android:id="@+id/tableres"
-        android:layout_width="377dp"
-        android:layout_height="639dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffaa88"
+        android:weightSum="450"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textVi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:text="Operation"
+            android:textAlignment="center"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:text="E"
+            android:textAlignment="center"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/textVw3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="155"
+            android:gravity="center"
+            android:text="A"
+            android:textAlignment="center"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/ttView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="155"
+            android:gravity="center"
+            android:text="Q"
+            android:textAlignment="center"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/ttiView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="90"
+            android:gravity="center"
+            android:text="SC"
+            android:textAlignment="center"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="557dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.09">
+        app:layout_constraintVertical_bias="0.166"
+        tools:layout_editor_absoluteX="0dp">
 
-        <TableRow
-            android:id="@+id/pr"
+        <LinearLayout
+            android:id="@+id/res"
             android:layout_width="match_parent"
-            android:layout_height="79dp"
-            android:background="#ffaa88">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="190px"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Operation"
-                android:textAlignment="center"
-                android:textStyle="bold"></TextView>
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="60px"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="E"
-                android:textAlignment="center"
-                android:textStyle="bold"></TextView>
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="300px"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="A"
-                android:textAlignment="center"
-                android:textStyle="bold"></TextView>
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="300px"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Q"
-                android:textAlignment="center"
-                android:textStyle="bold"></TextView>
-
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="51dp"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="SC"
-                android:textAlignment="center"
-                android:textStyle="bold"></TextView>
-        </TableRow>
-    </TableLayout>
+        </LinearLayout>
+    </ScrollView>
 
     <TextView
-        android:id="@+id/res"
+        android:id="@+id/asd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tableres" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+        app:layout_constraintVertical_bias="0.158" />
 </androidx.constraintlayout.widget.ConstraintLayout>

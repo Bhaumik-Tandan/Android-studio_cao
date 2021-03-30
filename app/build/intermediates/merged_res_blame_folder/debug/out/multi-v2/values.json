@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\app\\cao\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bhaum\\.gradle\\caches\\transforms-2\\files-2.1\\76a75c6502d93031e6f1d463ce4e8940\\recyclerview-1.1.0\\res\\values\\values.xml",
@@ -58,23 +58,6 @@
                         "endLines": "50,4874,6267,6356",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "2554,322184,409417,414628"
-                    }
-                },
-                {
-                    "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "41",
-                        "endOffsets": "54"
-                    },
-                    "to": {
-                        "startLines": "653",
-                        "startColumns": "4",
-                        "startOffsets": "36171",
-                        "endColumns": "41",
-                        "endOffsets": "36208"
                     }
                 },
                 {
@@ -135,6 +118,25 @@
                     }
                 },
                 {
+                    "source": "D:\\app\\cao\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,5,10,11,7,8,6,2",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "17,225,445,516,357,396,290,59",
+                        "endLines": "1,5,10,11,7,8,6,3",
+                        "endColumns": "40,63,69,82,37,45,65,13",
+                        "endOffsets": "53,284,510,594,390,437,351,163"
+                    },
+                    "to": {
+                        "startLines": "1051,1064,1065,1066,1122,1128,1130,1132",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "61528,62981,63045,63115,72389,73229,73328,73465",
+                        "endLines": "1051,1064,1065,1066,1122,1128,1130,1133",
+                        "endColumns": "40,63,69,82,37,45,65,13",
+                        "endOffsets": "61564,63040,63110,63193,72422,73270,73389,73568"
+                    }
+                },
+                {
                     "source": "C:\\Users\\bhaum\\.gradle\\caches\\transforms-2\\files-2.1\\351f62b5f38951fe44a0db260f7616e8\\fragment-1.2.4\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,9",
@@ -192,7 +194,7 @@
                     }
                 },
                 {
-                    "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "D:\\app\\cao\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "2,21,16,23",
                         "startColumns": "4,4,4,4",
@@ -208,23 +210,6 @@
                         "endLines": "3664,3665,3669,3670",
                         "endColumns": "12,90,12,80",
                         "endOffsets": "241657,241748,241899,241980"
-                    }
-                },
-                {
-                    "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "405,493,494,495,506,507,510",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "19645,25638,25685,25732,26476,26521,26687",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "19682,25680,25727,25774,26516,26561,26724"
                     }
                 },
                 {
@@ -247,6 +232,23 @@
                     }
                 },
                 {
+                    "source": "D:\\app\\cao\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,57,105,153,201,247,336",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "330,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "405,493,494,495,506,507,510",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "19645,25638,25685,25732,26476,26521,26687",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "19682,25680,25727,25774,26516,26561,26724"
+                    }
+                },
+                {
                     "source": "C:\\Users\\bhaum\\.gradle\\caches\\transforms-2\\files-2.1\\f2c4dfe6979f9a4d20d84f8f6a5aab99\\drawerlayout-1.1.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -263,6 +265,23 @@
                         "endLines": "75,77,602,6382",
                         "endColumns": "55,47,51,24",
                         "endOffsets": "3572,3665,32913,416500"
+                    }
+                },
+                {
+                    "source": "D:\\app\\cao\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "41",
+                        "endOffsets": "54"
+                    },
+                    "to": {
+                        "startLines": "653",
+                        "startColumns": "4",
+                        "startOffsets": "36171",
+                        "endColumns": "41",
+                        "endOffsets": "36208"
                     }
                 },
                 {
@@ -335,25 +354,6 @@
                         "endLines": "961,6360,6551,7124",
                         "endColumns": "56,24,24,24",
                         "endOffsets": "56192,415247,426083,460854"
-                    }
-                },
-                {
-                    "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,5,10,11,7,8,6,2",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "17,225,445,516,357,396,290,59",
-                        "endLines": "1,5,10,11,7,8,6,3",
-                        "endColumns": "40,63,69,82,37,45,65,13",
-                        "endOffsets": "53,284,510,594,390,437,351,163"
-                    },
-                    "to": {
-                        "startLines": "1051,1064,1065,1066,1122,1128,1130,1132",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "61528,62981,63045,63115,72389,73229,73328,73465",
-                        "endLines": "1051,1064,1065,1066,1122,1128,1130,1133",
-                        "endColumns": "40,63,69,82,37,45,65,13",
-                        "endOffsets": "61564,63040,63110,63193,72422,73270,73389,73568"
                     }
                 },
                 {

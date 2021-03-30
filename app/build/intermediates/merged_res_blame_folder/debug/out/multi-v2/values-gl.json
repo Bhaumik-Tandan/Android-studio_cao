@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
+            "outputFile": "D:\\app\\cao\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
             "map": [
                 {
                     "source": "C:\\Users\\bhaum\\.gradle\\caches\\transforms-2\\files-2.1\\d637dd075e3dce4ca218cc47d1965e0f\\navigation-ui-2.3.4\\res\\values-gl\\values-gl.xml",

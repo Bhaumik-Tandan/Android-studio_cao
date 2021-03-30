@@ -1817,8 +1817,6 @@ id beginning
 id blocking
 id bottom
 id bounce
-id btoint
-id btoint2
 id buttonPanel
 id button_first
 id button_second

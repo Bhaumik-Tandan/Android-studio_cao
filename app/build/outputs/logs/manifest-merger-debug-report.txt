@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [androidx.navigation:navigation-ui:2.3.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\d637dd075e3dce4ca218cc47d1965e0f\navigation-ui-2.3.4\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -48,25 +48,25 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\bhaum\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\644567d122746ae95b6522d27232d273\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml
 		INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:5:5-43:19
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:5:5-42:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -106,53 +106,51 @@ ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:16:9-18:58
 	android:name
 		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:16:19-42
 activity#com.example.cao19BIT0292.BOOTH_MULTIPLICATION
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:19:9-23:60
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:19:9-22:53
 	android:parentActivityName
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:22:13-48
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:22:13-50
 	android:label
 		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:21:13-46
-	android:theme
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:23:13-57
 	android:name
 		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:20:13-49
 activity#com.example.cao19BIT0292.Second
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:24:9-27:58
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:23:9-26:58
 	android:parentActivityName
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:27:13-55
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:26:13-55
 	android:label
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:26:13-51
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:25:13-51
 	android:name
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:25:13-35
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:24:13-35
 activity#com.example.cao19BIT0292.ares
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:28:9-31:52
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:27:9-30:52
 	android:parentActivityName
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:31:13-49
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:30:13-49
 	android:label
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:30:13-55
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:29:13-55
 	android:name
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:29:13-33
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:28:13-33
 activity#com.example.cao19BIT0292.add
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:32:9-35:52
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:31:9-34:52
 	android:parentActivityName
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:34:13-49
 	android:label
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:33:13-45
 	android:name
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:33:13-32
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:32:13-32
 activity#com.example.cao19BIT0292.MainActivity
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:36:9-42:20
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:35:9-41:20
 	android:name
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:36:19-47
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:35:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:38:17-69
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:38:25-66
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:40:17-77
+ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:40:27-74
+		ADDED from D:\app\cao\app\src\main\AndroidManifest.xml:39:27-74
 uses-sdk
 INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\app\cao\app\src\main\AndroidManifest.xml

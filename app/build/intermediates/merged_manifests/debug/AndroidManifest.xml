@@ -29,8 +29,7 @@
         <activity
             android:name="com.example.cao19BIT0292.BOOTH_MULTIPLICATION"
             android:label="Result(19BIT0292)"
-            android:parentActivityName="com.example.cao19BIT0292.BOOTH"
-            android:theme="@style/Theme.CAO.NoActionBar" />
+            android:parentActivityName="com.example.cao19BIT0292.bot_dec" />
         <activity
             android:name="com.example.cao19BIT0292.Second"
             android:label="INTPUT TYPE(19BIT0292)"

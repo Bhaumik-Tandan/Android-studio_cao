@@ -1745,9 +1745,6 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SecondFragment
-id T1
-id T2
-id T3
 id TOP_END
 id TOP_START
 id accelerate

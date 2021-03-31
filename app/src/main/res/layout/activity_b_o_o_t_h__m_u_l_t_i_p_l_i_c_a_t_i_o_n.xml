@@ -4,4 +4,94 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BOOTH_MULTIPLICATION"/>
+    tools:context=".BOOTH_MULTIPLICATION">
+<LinearLayout
+android:id="@+id/linearLayout"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="#ffaa88"
+android:weightSum="40"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent">
+
+<TextView
+    android:id="@+id/textVi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="5"
+    android:gravity="center"
+    android:text="Comment"
+    android:textAlignment="center"
+    android:textStyle="bold"></TextView>
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="13"
+    android:gravity="center"
+    android:text="AC"
+    android:textAlignment="center"
+    android:textStyle="bold"></TextView>
+
+<TextView
+    android:id="@+id/textVw3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="13"
+    android:gravity="center"
+    android:textAlignment="center"
+    android:textStyle="bold"></TextView>
+
+<TextView
+    android:id="@+id/ttView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="7"
+    android:gravity="right"
+    android:textAlignment="center"
+    android:textStyle="bold"></TextView>
+
+<TextView
+    android:id="@+id/ttiView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:gravity="left"
+    android:text="SC "
+    android:textAlignment="center"
+    android:textStyle="bold"></TextView>
+</LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="557dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.201"
+        tools:layout_editor_absoluteX="-16dp" >
+
+    <LinearLayout
+        android:id="@+id/res"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="40"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+    </ScrollView>
+
+<TextView
+android:id="@+id/asd"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="TextView"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.498"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/scrollView2"
+app:layout_constraintVertical_bias="0.158" />
+    </androidx.constraintlayout.widget.ConstraintLayout>

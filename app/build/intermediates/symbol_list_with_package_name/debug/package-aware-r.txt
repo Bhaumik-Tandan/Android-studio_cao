@@ -1736,6 +1736,7 @@ id CTRL
 id FUNCTION
 id FirstFragment
 id MA
+id MA2
 id META
 id NO_DEBUG
 id SHIFT
@@ -1744,6 +1745,9 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SecondFragment
+id T1
+id T2
+id T3
 id TOP_END
 id TOP_START
 id accelerate
@@ -1825,7 +1829,6 @@ id blocking
 id bottom
 id bounce
 id buttonPanel
-id button_first
 id button_second
 id cache_measures
 id cancel_action
@@ -1889,6 +1892,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextNumber
 id edit_query
 id elastic
 id end
@@ -1899,7 +1903,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fade
 id fill
 id fill_horizontal
@@ -2048,6 +2051,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id s1
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2105,6 +2109,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id t4
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2139,14 +2144,12 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
-id textview_first
 id textview_second
 id time
 id title
 id titleDividerNoCustom
 id title_template
 id toggle
-id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2236,7 +2239,9 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add
 layout activity_ares
+layout activity_b_o_o_t_h
 layout activity_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n
+layout activity_bot_dec
 layout activity_main
 layout activity_second
 layout content_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n

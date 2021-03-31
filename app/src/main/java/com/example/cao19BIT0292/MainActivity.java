@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i=new Intent(this,Second.class);
         startActivity(i);
     }
+    public void apc(View v)
+    {
+        Intent i=new Intent(this,bot_dec.class);
+        startActivity(i);
+    }
 }

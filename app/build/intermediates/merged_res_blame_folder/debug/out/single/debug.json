@@ -4,8 +4,16 @@
         "source": "D:\\app\\cao\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "D:\\app\\cao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_b_o_o_t_h.xml.flat",
+        "source": "D:\\app\\cao\\app\\src\\main\\res\\layout\\activity_b_o_o_t_h.xml"
+    },
+    {
         "merged": "D:\\app\\cao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\app\\cao\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\app\\cao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bot_dec.xml.flat",
+        "source": "D:\\app\\cao\\app\\src\\main\\res\\layout\\activity_bot_dec.xml"
     },
     {
         "merged": "D:\\app\\cao\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",

@@ -11,7 +11,7 @@
 9-->D:\app\cao\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\app\cao\app\src\main\AndroidManifest.xml:5:5-35:19
+11-->D:\app\cao\app\src\main\AndroidManifest.xml:5:5-43:19
 12        android:allowBackup="true"
 12-->D:\app\cao\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -29,51 +29,69 @@
 20        android:theme="@style/Theme.CAO" >
 20-->D:\app\cao\app\src\main\AndroidManifest.xml:11:9-41
 21        <activity
-21-->D:\app\cao\app\src\main\AndroidManifest.xml:12:9-15:69
-22            android:name="com.example.cao19BIT0292.BOOTH_MULTIPLICATION"
-22-->D:\app\cao\app\src\main\AndroidManifest.xml:13:13-49
-23            android:label="@string/title_activity_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n"
-23-->D:\app\cao\app\src\main\AndroidManifest.xml:14:13-90
-24            android:theme="@style/Theme.CAO.NoActionBar" />
-24-->D:\app\cao\app\src\main\AndroidManifest.xml:15:13-57
+21-->D:\app\cao\app\src\main\AndroidManifest.xml:12:9-15:53
+22            android:name="com.example.cao19BIT0292.BOOTH"
+22-->D:\app\cao\app\src\main\AndroidManifest.xml:13:13-34
+23            android:label="Input(19BIT0292)"
+23-->D:\app\cao\app\src\main\AndroidManifest.xml:14:13-45
+24            android:parentActivityName="com.example.cao19BIT0292.bot_dec" />
+24-->D:\app\cao\app\src\main\AndroidManifest.xml:15:13-50
 25        <activity
-25-->D:\app\cao\app\src\main\AndroidManifest.xml:16:9-19:58
-26            android:name="com.example.cao19BIT0292.Second"
-26-->D:\app\cao\app\src\main\AndroidManifest.xml:17:13-35
-27            android:label="INTPUT TYPE(19BIT0292)"
-27-->D:\app\cao\app\src\main\AndroidManifest.xml:18:13-51
+25-->D:\app\cao\app\src\main\AndroidManifest.xml:16:9-18:58
+26            android:name="com.example.cao19BIT0292.bot_dec"
+26-->D:\app\cao\app\src\main\AndroidManifest.xml:16:19-42
+27            android:label="Input type(19BIT0292)"
+27-->D:\app\cao\app\src\main\AndroidManifest.xml:17:13-50
 28            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
-28-->D:\app\cao\app\src\main\AndroidManifest.xml:19:13-55
+28-->D:\app\cao\app\src\main\AndroidManifest.xml:18:13-55
 29        <activity
-29-->D:\app\cao\app\src\main\AndroidManifest.xml:20:9-23:52
-30            android:name="com.example.cao19BIT0292.ares"
-30-->D:\app\cao\app\src\main\AndroidManifest.xml:21:13-33
-31            android:label="Multiply Result(19BIT0292)"
-31-->D:\app\cao\app\src\main\AndroidManifest.xml:22:13-55
-32            android:parentActivityName="com.example.cao19BIT0292.Second" />
-32-->D:\app\cao\app\src\main\AndroidManifest.xml:23:13-49
-33        <activity
-33-->D:\app\cao\app\src\main\AndroidManifest.xml:24:9-27:52
-34            android:name="com.example.cao19BIT0292.add"
-34-->D:\app\cao\app\src\main\AndroidManifest.xml:25:13-32
-35            android:label="Menu(19BIT0292)"
-35-->D:\app\cao\app\src\main\AndroidManifest.xml:26:13-44
-36            android:parentActivityName="com.example.cao19BIT0292.Second" />
-36-->D:\app\cao\app\src\main\AndroidManifest.xml:27:13-49
-37        <activity android:name="com.example.cao19BIT0292.MainActivity" >
-37-->D:\app\cao\app\src\main\AndroidManifest.xml:28:9-34:20
-37-->D:\app\cao\app\src\main\AndroidManifest.xml:28:19-47
-38            <intent-filter>
-38-->D:\app\cao\app\src\main\AndroidManifest.xml:29:13-33:29
-39                <action android:name="android.intent.action.MAIN" />
-39-->D:\app\cao\app\src\main\AndroidManifest.xml:30:17-69
-39-->D:\app\cao\app\src\main\AndroidManifest.xml:30:25-66
-40
-41                <category android:name="android.intent.category.LAUNCHER" />
-41-->D:\app\cao\app\src\main\AndroidManifest.xml:32:17-77
-41-->D:\app\cao\app\src\main\AndroidManifest.xml:32:27-74
-42            </intent-filter>
-43        </activity>
-44    </application>
-45
-46</manifest>
+29-->D:\app\cao\app\src\main\AndroidManifest.xml:19:9-23:60
+30            android:name="com.example.cao19BIT0292.BOOTH_MULTIPLICATION"
+30-->D:\app\cao\app\src\main\AndroidManifest.xml:20:13-49
+31            android:label="Result(19BIT0292)"
+31-->D:\app\cao\app\src\main\AndroidManifest.xml:21:13-46
+32            android:parentActivityName="com.example.cao19BIT0292.BOOTH"
+32-->D:\app\cao\app\src\main\AndroidManifest.xml:22:13-48
+33            android:theme="@style/Theme.CAO.NoActionBar" />
+33-->D:\app\cao\app\src\main\AndroidManifest.xml:23:13-57
+34        <activity
+34-->D:\app\cao\app\src\main\AndroidManifest.xml:24:9-27:58
+35            android:name="com.example.cao19BIT0292.Second"
+35-->D:\app\cao\app\src\main\AndroidManifest.xml:25:13-35
+36            android:label="INTPUT TYPE(19BIT0292)"
+36-->D:\app\cao\app\src\main\AndroidManifest.xml:26:13-51
+37            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
+37-->D:\app\cao\app\src\main\AndroidManifest.xml:27:13-55
+38        <activity
+38-->D:\app\cao\app\src\main\AndroidManifest.xml:28:9-31:52
+39            android:name="com.example.cao19BIT0292.ares"
+39-->D:\app\cao\app\src\main\AndroidManifest.xml:29:13-33
+40            android:label="Multiply Result(19BIT0292)"
+40-->D:\app\cao\app\src\main\AndroidManifest.xml:30:13-55
+41            android:parentActivityName="com.example.cao19BIT0292.Second" />
+41-->D:\app\cao\app\src\main\AndroidManifest.xml:31:13-49
+42        <activity
+42-->D:\app\cao\app\src\main\AndroidManifest.xml:32:9-35:52
+43            android:name="com.example.cao19BIT0292.add"
+43-->D:\app\cao\app\src\main\AndroidManifest.xml:33:13-32
+44            android:label="Input(19BIT0292)"
+44-->D:\app\cao\app\src\main\AndroidManifest.xml:34:13-45
+45            android:parentActivityName="com.example.cao19BIT0292.Second" />
+45-->D:\app\cao\app\src\main\AndroidManifest.xml:35:13-49
+46        <activity android:name="com.example.cao19BIT0292.MainActivity" >
+46-->D:\app\cao\app\src\main\AndroidManifest.xml:36:9-42:20
+46-->D:\app\cao\app\src\main\AndroidManifest.xml:36:19-47
+47            <intent-filter>
+47-->D:\app\cao\app\src\main\AndroidManifest.xml:37:13-41:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->D:\app\cao\app\src\main\AndroidManifest.xml:38:17-69
+48-->D:\app\cao\app\src\main\AndroidManifest.xml:38:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->D:\app\cao\app\src\main\AndroidManifest.xml:40:17-77
+50-->D:\app\cao\app\src\main\AndroidManifest.xml:40:27-74
+51            </intent-filter>
+52        </activity>
+53    </application>
+54
+55</manifest>

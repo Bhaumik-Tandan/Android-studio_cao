@@ -86,11 +86,6 @@ public class BOOTH extends AppCompatActivity {
         try {
             int g=Integer.parseInt(d3);
             d3=Integer.toString(d4);
-            if(g>13)
-            {
-                fun();
-                f=1;
-            }
             if(g<d4)
             {
                 Context context = getApplicationContext();
@@ -106,6 +101,11 @@ public class BOOTH extends AppCompatActivity {
         catch(Exception e)
         {
             d3=Integer.toString(d4);;
+        }
+        if(Integer.parseInt(e3)>13)
+        {
+            fun();
+            f=1;
         }
         if(f==0){
             i.putExtra(e1, d1);

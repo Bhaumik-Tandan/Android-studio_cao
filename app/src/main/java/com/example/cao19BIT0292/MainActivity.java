@@ -24,4 +24,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i=new Intent(this,bot_dec.class);
         startActivity(i);
     }
+    public void bd(View v)
+    {
+        Intent i=new Intent(this,bd_i.class);
+        startActivity(i);
+    }
 }

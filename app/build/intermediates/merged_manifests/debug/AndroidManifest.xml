@@ -16,8 +16,19 @@
         android:label="Binary Calculator"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.CAO" >
+        <activity
+            android:name="com.example.cao19BIT0292.divisionbi"
+            android:label="Result(19BIT0292)"
+            android:parentActivityName="com.example.cao19BIT0292.bd_i" />
+        <activity
+            android:name="com.example.cao19BIT0292.bd_in"
+            android:label="Input(19BIT0292)"
+            android:parentActivityName="com.example.cao19BIT0292.bd_i" />
+        <activity
+            android:name="com.example.cao19BIT0292.bd_i"
+            android:label="Input type(19BIT0292)"
+            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
         <activity
             android:name="com.example.cao19BIT0292.BOOTH"
             android:label="Input(19BIT0292)"

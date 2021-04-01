@@ -1747,6 +1747,7 @@ id SYM
 id SecondFragment
 id TOP_END
 id TOP_START
+id a
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1827,6 +1828,7 @@ id bottom
 id bounce
 id buttonPanel
 id button_second
+id c
 id cache_measures
 id cancel_action
 id cancel_button
@@ -1886,6 +1888,7 @@ id dragRight
 id dragStart
 id dragUp
 id dropdown_menu
+id e
 id easeIn
 id easeInOut
 id easeOut
@@ -2017,6 +2020,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id o
 id off
 id on
 id outline
@@ -2037,6 +2041,7 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id q
 id radio
 id ratio
 id rectangles
@@ -2048,6 +2053,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id s
 id s1
 id save_non_transition_alpha
 id save_overlay_view
@@ -2060,6 +2066,7 @@ id scrollIndicatorUp
 id scrollView
 id scrollView2
 id scrollable
+id sd
 id search_badge
 id search_bar
 id search_button
@@ -2120,6 +2127,7 @@ id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
+id tetView3
 id text
 id text2
 id textEnd
@@ -2238,7 +2246,10 @@ layout activity_add
 layout activity_ares
 layout activity_b_o_o_t_h
 layout activity_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n
+layout activity_bd_i
+layout activity_bd_in
 layout activity_bot_dec
+layout activity_divisionbi
 layout activity_main
 layout activity_second
 layout content_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n

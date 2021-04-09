@@ -4,8 +4,8 @@ com/example/cao19BIT0292/BOOTH_MULTIPLICATION.java
  com.example.cao19BIT0292.BOOTH_MULTIPLICATION
 com/example/cao19BIT0292/add.java
  com.example.cao19BIT0292.add
-com/example/cao19BIT0292/MainActivity.java
- com.example.cao19BIT0292.MainActivity
+com/example/cao19BIT0292/bd_in.java
+ com.example.cao19BIT0292.bd_in
 com/example/cao19BIT0292/ares.java
  com.example.cao19BIT0292.ares
 com/example/cao19BIT0292/FirstFragment.java
@@ -20,7 +20,7 @@ com/example/cao19BIT0292/SecondFragment.java
  com.example.cao19BIT0292.SecondFragment
 com/example/cao19BIT0292/BuildConfig.java
  com.example.cao19BIT0292.BuildConfig
-com/example/cao19BIT0292/bd_in.java
- com.example.cao19BIT0292.bd_in
+com/example/cao19BIT0292/MainActivity.java
+ com.example.cao19BIT0292.MainActivity
 com/example/cao19BIT0292/divisionbi.java
  com.example.cao19BIT0292.divisionbi

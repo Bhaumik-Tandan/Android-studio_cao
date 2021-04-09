@@ -102,7 +102,7 @@ public class BOOTH extends AppCompatActivity {
         {
             d3=Integer.toString(d4);;
         }
-        if(Integer.parseInt(e3)>13)
+        if(Integer.parseInt(d3)>13)
         {
             fun();
             f=1;

@@ -80,6 +80,48 @@ public class BOOTH extends AppCompatActivity {
                 f=1;
             }
         }
+        else if(c.equals("8"))
+        {
+            try {
+
+                int o1 = Integer.parseInt(d1, 8);
+                int o2 = Integer.parseInt(d2, 8);
+                d1=Integer.toString(o1);
+                d2=Integer.toString(o2);
+            }
+            catch (Exception e)
+            {
+                Context context = getApplicationContext();
+                CharSequence text = "ONLY NUMBERS BETWEEN 0 to 7 allowed!";
+                int duration = Toast.LENGTH_SHORT;
+
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
+                f=1;
+            }
+
+        }
+        else if(c.equals("16"))
+        {
+            try {
+
+                int o1 = Integer.parseInt(d1, 16);
+                int o2 = Integer.parseInt(d2, 16);
+                d1=Integer.toString(o1);
+                d2=Integer.toString(o2);
+            }
+            catch (Exception e)
+            {
+                Context context = getApplicationContext();
+                CharSequence text = "INVALID INPUT!";
+                int duration = Toast.LENGTH_SHORT;
+
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
+                f=1;
+            }
+
+        }
         String ch1=Integer.toBinaryString(Integer.parseInt(d1));
         String ch2=Integer.toBinaryString(Integer.parseInt(d2));
         int d4=ch1.length()>ch2.length()?ch1.length():ch2.length();

@@ -25,4 +25,16 @@ public class bot_dec extends AppCompatActivity {
         i.putExtra(e,"2");
         startActivity(i);
     }
+    public void obnc(View v)
+    {
+        Intent i=new Intent(this,add.class);
+        i.putExtra(e,"8");
+        startActivity(i);
+    }
+    public void hbnc(View v)
+    {
+        Intent i=new Intent(this,add.class);
+        i.putExtra(e,"16");
+        startActivity(i);
+    }
 }

@@ -6,6 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".bd_i">
     <Button
+        android:id="@+id/b3"
+        android:layout_width="221dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="148dp"
+        android:onClick="hbnc"
+        android:text="HEXADECIMAL"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="276dp"
+        android:onClick="obnc"
+        android:text="OCTAL"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
         android:id="@+id/i"
         android:layout_width="150dp"
         android:layout_height="50dp"
@@ -17,13 +42,13 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.763" />
+        app:layout_constraintVertical_bias="0.504" />
 
     <Button
         android:id="@+id/b"
         android:layout_width="150dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="256dp"
+        android:layout_marginBottom="424dp"
         android:onClick="bnc"
         android:text="BINARY"
         android:textSize="20dp"

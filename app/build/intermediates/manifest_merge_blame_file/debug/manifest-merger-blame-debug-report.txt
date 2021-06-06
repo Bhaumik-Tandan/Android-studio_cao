@@ -6,111 +6,111 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->D:\app\cao\app\src\main\AndroidManifest.xml
+8-->D:\app\projin\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\app\cao\app\src\main\AndroidManifest.xml
+9-->D:\app\projin\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\app\cao\app\src\main\AndroidManifest.xml:5:5-54:19
+11-->D:\app\projin\app\src\main\AndroidManifest.xml:5:5-54:19
 12        android:allowBackup="true"
-12-->D:\app\cao\app\src\main\AndroidManifest.xml:6:9-35
+12-->D:\app\projin\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.3.1] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->D:\app\cao\app\src\main\AndroidManifest.xml:7:9-43
+15-->D:\app\projin\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="Binary Calculator"
-16-->D:\app\cao\app\src\main\AndroidManifest.xml:8:9-42
+16-->D:\app\projin\app\src\main\AndroidManifest.xml:8:9-42
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\app\cao\app\src\main\AndroidManifest.xml:9:9-54
+17-->D:\app\projin\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->D:\app\cao\app\src\main\AndroidManifest.xml:10:9-35
+18-->D:\app\projin\app\src\main\AndroidManifest.xml:10:9-35
 19        android:theme="@style/Theme.CAO" >
-19-->D:\app\cao\app\src\main\AndroidManifest.xml:11:9-41
+19-->D:\app\projin\app\src\main\AndroidManifest.xml:11:9-41
 20        <activity
-20-->D:\app\cao\app\src\main\AndroidManifest.xml:12:9-14:59
+20-->D:\app\projin\app\src\main\AndroidManifest.xml:12:9-14:59
 21            android:name="com.example.cao19BIT0292.divisionbi"
-21-->D:\app\cao\app\src\main\AndroidManifest.xml:12:19-45
+21-->D:\app\projin\app\src\main\AndroidManifest.xml:12:19-45
 22            android:label="Result(19BIT0292)"
-22-->D:\app\cao\app\src\main\AndroidManifest.xml:13:13-46
+22-->D:\app\projin\app\src\main\AndroidManifest.xml:13:13-46
 23            android:parentActivityName="com.example.cao19BIT0292.bd_i" />
-23-->D:\app\cao\app\src\main\AndroidManifest.xml:14:13-47
+23-->D:\app\projin\app\src\main\AndroidManifest.xml:14:13-47
 24        <activity
-24-->D:\app\cao\app\src\main\AndroidManifest.xml:15:9-18:50
+24-->D:\app\projin\app\src\main\AndroidManifest.xml:15:9-18:50
 25            android:name="com.example.cao19BIT0292.bd_in"
-25-->D:\app\cao\app\src\main\AndroidManifest.xml:16:13-34
+25-->D:\app\projin\app\src\main\AndroidManifest.xml:16:13-34
 26            android:label="Input(19BIT0292)"
-26-->D:\app\cao\app\src\main\AndroidManifest.xml:17:13-45
+26-->D:\app\projin\app\src\main\AndroidManifest.xml:17:13-45
 27            android:parentActivityName="com.example.cao19BIT0292.bd_i" />
-27-->D:\app\cao\app\src\main\AndroidManifest.xml:18:13-47
+27-->D:\app\projin\app\src\main\AndroidManifest.xml:18:13-47
 28        <activity
-28-->D:\app\cao\app\src\main\AndroidManifest.xml:19:9-22:58
+28-->D:\app\projin\app\src\main\AndroidManifest.xml:19:9-22:58
 29            android:name="com.example.cao19BIT0292.bd_i"
-29-->D:\app\cao\app\src\main\AndroidManifest.xml:20:13-33
+29-->D:\app\projin\app\src\main\AndroidManifest.xml:20:13-33
 30            android:label="Input type(19BIT0292)"
-30-->D:\app\cao\app\src\main\AndroidManifest.xml:21:13-50
+30-->D:\app\projin\app\src\main\AndroidManifest.xml:21:13-50
 31            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
-31-->D:\app\cao\app\src\main\AndroidManifest.xml:22:13-55
+31-->D:\app\projin\app\src\main\AndroidManifest.xml:22:13-55
 32        <activity
-32-->D:\app\cao\app\src\main\AndroidManifest.xml:23:9-26:53
+32-->D:\app\projin\app\src\main\AndroidManifest.xml:23:9-26:53
 33            android:name="com.example.cao19BIT0292.BOOTH"
-33-->D:\app\cao\app\src\main\AndroidManifest.xml:24:13-34
+33-->D:\app\projin\app\src\main\AndroidManifest.xml:24:13-34
 34            android:label="Input(19BIT0292)"
-34-->D:\app\cao\app\src\main\AndroidManifest.xml:25:13-45
+34-->D:\app\projin\app\src\main\AndroidManifest.xml:25:13-45
 35            android:parentActivityName="com.example.cao19BIT0292.bot_dec" />
-35-->D:\app\cao\app\src\main\AndroidManifest.xml:26:13-50
+35-->D:\app\projin\app\src\main\AndroidManifest.xml:26:13-50
 36        <activity
-36-->D:\app\cao\app\src\main\AndroidManifest.xml:27:9-30:58
+36-->D:\app\projin\app\src\main\AndroidManifest.xml:27:9-30:58
 37            android:name="com.example.cao19BIT0292.bot_dec"
-37-->D:\app\cao\app\src\main\AndroidManifest.xml:28:13-36
+37-->D:\app\projin\app\src\main\AndroidManifest.xml:28:13-36
 38            android:label="Input type(19BIT0292)"
-38-->D:\app\cao\app\src\main\AndroidManifest.xml:29:13-50
+38-->D:\app\projin\app\src\main\AndroidManifest.xml:29:13-50
 39            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
-39-->D:\app\cao\app\src\main\AndroidManifest.xml:30:13-55
+39-->D:\app\projin\app\src\main\AndroidManifest.xml:30:13-55
 40        <activity
-40-->D:\app\cao\app\src\main\AndroidManifest.xml:31:9-34:53
+40-->D:\app\projin\app\src\main\AndroidManifest.xml:31:9-34:53
 41            android:name="com.example.cao19BIT0292.BOOTH_MULTIPLICATION"
-41-->D:\app\cao\app\src\main\AndroidManifest.xml:32:13-49
+41-->D:\app\projin\app\src\main\AndroidManifest.xml:32:13-49
 42            android:label="Result(19BIT0292)"
-42-->D:\app\cao\app\src\main\AndroidManifest.xml:33:13-46
+42-->D:\app\projin\app\src\main\AndroidManifest.xml:33:13-46
 43            android:parentActivityName="com.example.cao19BIT0292.bot_dec" />
-43-->D:\app\cao\app\src\main\AndroidManifest.xml:34:13-50
+43-->D:\app\projin\app\src\main\AndroidManifest.xml:34:13-50
 44        <activity
-44-->D:\app\cao\app\src\main\AndroidManifest.xml:35:9-38:58
+44-->D:\app\projin\app\src\main\AndroidManifest.xml:35:9-38:58
 45            android:name="com.example.cao19BIT0292.Second"
-45-->D:\app\cao\app\src\main\AndroidManifest.xml:36:13-35
+45-->D:\app\projin\app\src\main\AndroidManifest.xml:36:13-35
 46            android:label="INTPUT TYPE(19BIT0292)"
-46-->D:\app\cao\app\src\main\AndroidManifest.xml:37:13-51
+46-->D:\app\projin\app\src\main\AndroidManifest.xml:37:13-51
 47            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
-47-->D:\app\cao\app\src\main\AndroidManifest.xml:38:13-55
+47-->D:\app\projin\app\src\main\AndroidManifest.xml:38:13-55
 48        <activity
-48-->D:\app\cao\app\src\main\AndroidManifest.xml:39:9-42:52
+48-->D:\app\projin\app\src\main\AndroidManifest.xml:39:9-42:52
 49            android:name="com.example.cao19BIT0292.ares"
-49-->D:\app\cao\app\src\main\AndroidManifest.xml:40:13-33
+49-->D:\app\projin\app\src\main\AndroidManifest.xml:40:13-33
 50            android:label="Multiply Result(19BIT0292)"
-50-->D:\app\cao\app\src\main\AndroidManifest.xml:41:13-55
+50-->D:\app\projin\app\src\main\AndroidManifest.xml:41:13-55
 51            android:parentActivityName="com.example.cao19BIT0292.Second" />
-51-->D:\app\cao\app\src\main\AndroidManifest.xml:42:13-49
+51-->D:\app\projin\app\src\main\AndroidManifest.xml:42:13-49
 52        <activity
-52-->D:\app\cao\app\src\main\AndroidManifest.xml:43:9-46:52
+52-->D:\app\projin\app\src\main\AndroidManifest.xml:43:9-46:52
 53            android:name="com.example.cao19BIT0292.add"
-53-->D:\app\cao\app\src\main\AndroidManifest.xml:44:13-32
+53-->D:\app\projin\app\src\main\AndroidManifest.xml:44:13-32
 54            android:label="Input(19BIT0292)"
-54-->D:\app\cao\app\src\main\AndroidManifest.xml:45:13-45
+54-->D:\app\projin\app\src\main\AndroidManifest.xml:45:13-45
 55            android:parentActivityName="com.example.cao19BIT0292.Second" />
-55-->D:\app\cao\app\src\main\AndroidManifest.xml:46:13-49
+55-->D:\app\projin\app\src\main\AndroidManifest.xml:46:13-49
 56        <activity android:name="com.example.cao19BIT0292.MainActivity" >
-56-->D:\app\cao\app\src\main\AndroidManifest.xml:47:9-53:20
-56-->D:\app\cao\app\src\main\AndroidManifest.xml:47:19-47
+56-->D:\app\projin\app\src\main\AndroidManifest.xml:47:9-53:20
+56-->D:\app\projin\app\src\main\AndroidManifest.xml:47:19-47
 57            <intent-filter>
-57-->D:\app\cao\app\src\main\AndroidManifest.xml:48:13-52:29
+57-->D:\app\projin\app\src\main\AndroidManifest.xml:48:13-52:29
 58                <action android:name="android.intent.action.MAIN" />
-58-->D:\app\cao\app\src\main\AndroidManifest.xml:49:17-69
-58-->D:\app\cao\app\src\main\AndroidManifest.xml:49:25-66
+58-->D:\app\projin\app\src\main\AndroidManifest.xml:49:17-69
+58-->D:\app\projin\app\src\main\AndroidManifest.xml:49:25-66
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->D:\app\cao\app\src\main\AndroidManifest.xml:51:17-77
-60-->D:\app\cao\app\src\main\AndroidManifest.xml:51:27-74
+60-->D:\app\projin\app\src\main\AndroidManifest.xml:51:17-77
+60-->D:\app\projin\app\src\main\AndroidManifest.xml:51:27-74
 61            </intent-filter>
 62        </activity>
 63    </application>

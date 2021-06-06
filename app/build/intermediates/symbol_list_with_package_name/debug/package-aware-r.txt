@@ -1819,6 +1819,8 @@ id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
 id b
+id b2
+id b3
 id barrier
 id baseline
 id beginOnFirstDraw

@@ -19,9 +19,11 @@
         android:label="Binary Calculator"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.CAO" >
-        <activity android:name="com.example.cao19BIT0292.Contackus" />
+        <activity
+            android:name="com.example.cao19BIT0292.Contackus"
+            android:label="CONTACT US"
+            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
         <activity
             android:name="com.example.cao19BIT0292.divisionbi"
             android:label="Result(19BIT0292)"

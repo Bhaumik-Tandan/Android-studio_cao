@@ -6,113 +6,274 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->D:\app\projin\app\src\main\AndroidManifest.xml
+8-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->D:\app\projin\app\src\main\AndroidManifest.xml
+9-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->D:\app\projin\app\src\main\AndroidManifest.xml:5:5-54:19
-12        android:allowBackup="true"
-12-->D:\app\projin\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.3.1] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->D:\app\projin\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="Binary Calculator"
-16-->D:\app\projin\app\src\main\AndroidManifest.xml:8:9-42
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\app\projin\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->D:\app\projin\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/Theme.CAO" >
-19-->D:\app\projin\app\src\main\AndroidManifest.xml:11:9-41
-20        <activity
-20-->D:\app\projin\app\src\main\AndroidManifest.xml:12:9-14:59
-21            android:name="com.example.cao19BIT0292.divisionbi"
-21-->D:\app\projin\app\src\main\AndroidManifest.xml:12:19-45
-22            android:label="Result(19BIT0292)"
-22-->D:\app\projin\app\src\main\AndroidManifest.xml:13:13-46
-23            android:parentActivityName="com.example.cao19BIT0292.bd_i" />
-23-->D:\app\projin\app\src\main\AndroidManifest.xml:14:13-47
-24        <activity
-24-->D:\app\projin\app\src\main\AndroidManifest.xml:15:9-18:50
-25            android:name="com.example.cao19BIT0292.bd_in"
-25-->D:\app\projin\app\src\main\AndroidManifest.xml:16:13-34
-26            android:label="Input(19BIT0292)"
-26-->D:\app\projin\app\src\main\AndroidManifest.xml:17:13-45
-27            android:parentActivityName="com.example.cao19BIT0292.bd_i" />
-27-->D:\app\projin\app\src\main\AndroidManifest.xml:18:13-47
-28        <activity
-28-->D:\app\projin\app\src\main\AndroidManifest.xml:19:9-22:58
-29            android:name="com.example.cao19BIT0292.bd_i"
-29-->D:\app\projin\app\src\main\AndroidManifest.xml:20:13-33
-30            android:label="Input type(19BIT0292)"
-30-->D:\app\projin\app\src\main\AndroidManifest.xml:21:13-50
-31            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
-31-->D:\app\projin\app\src\main\AndroidManifest.xml:22:13-55
-32        <activity
-32-->D:\app\projin\app\src\main\AndroidManifest.xml:23:9-26:53
-33            android:name="com.example.cao19BIT0292.BOOTH"
-33-->D:\app\projin\app\src\main\AndroidManifest.xml:24:13-34
-34            android:label="Input(19BIT0292)"
-34-->D:\app\projin\app\src\main\AndroidManifest.xml:25:13-45
-35            android:parentActivityName="com.example.cao19BIT0292.bot_dec" />
-35-->D:\app\projin\app\src\main\AndroidManifest.xml:26:13-50
-36        <activity
-36-->D:\app\projin\app\src\main\AndroidManifest.xml:27:9-30:58
-37            android:name="com.example.cao19BIT0292.bot_dec"
-37-->D:\app\projin\app\src\main\AndroidManifest.xml:28:13-36
-38            android:label="Input type(19BIT0292)"
-38-->D:\app\projin\app\src\main\AndroidManifest.xml:29:13-50
-39            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
-39-->D:\app\projin\app\src\main\AndroidManifest.xml:30:13-55
-40        <activity
-40-->D:\app\projin\app\src\main\AndroidManifest.xml:31:9-34:53
-41            android:name="com.example.cao19BIT0292.BOOTH_MULTIPLICATION"
-41-->D:\app\projin\app\src\main\AndroidManifest.xml:32:13-49
-42            android:label="Result(19BIT0292)"
-42-->D:\app\projin\app\src\main\AndroidManifest.xml:33:13-46
-43            android:parentActivityName="com.example.cao19BIT0292.bot_dec" />
-43-->D:\app\projin\app\src\main\AndroidManifest.xml:34:13-50
-44        <activity
-44-->D:\app\projin\app\src\main\AndroidManifest.xml:35:9-38:58
-45            android:name="com.example.cao19BIT0292.Second"
-45-->D:\app\projin\app\src\main\AndroidManifest.xml:36:13-35
-46            android:label="INTPUT TYPE(19BIT0292)"
-46-->D:\app\projin\app\src\main\AndroidManifest.xml:37:13-51
-47            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
-47-->D:\app\projin\app\src\main\AndroidManifest.xml:38:13-55
-48        <activity
-48-->D:\app\projin\app\src\main\AndroidManifest.xml:39:9-42:52
-49            android:name="com.example.cao19BIT0292.ares"
-49-->D:\app\projin\app\src\main\AndroidManifest.xml:40:13-33
-50            android:label="Multiply Result(19BIT0292)"
-50-->D:\app\projin\app\src\main\AndroidManifest.xml:41:13-55
-51            android:parentActivityName="com.example.cao19BIT0292.Second" />
-51-->D:\app\projin\app\src\main\AndroidManifest.xml:42:13-49
-52        <activity
-52-->D:\app\projin\app\src\main\AndroidManifest.xml:43:9-46:52
-53            android:name="com.example.cao19BIT0292.add"
-53-->D:\app\projin\app\src\main\AndroidManifest.xml:44:13-32
-54            android:label="Input(19BIT0292)"
-54-->D:\app\projin\app\src\main\AndroidManifest.xml:45:13-45
-55            android:parentActivityName="com.example.cao19BIT0292.Second" />
-55-->D:\app\projin\app\src\main\AndroidManifest.xml:46:13-49
-56        <activity android:name="com.example.cao19BIT0292.MainActivity" >
-56-->D:\app\projin\app\src\main\AndroidManifest.xml:47:9-53:20
-56-->D:\app\projin\app\src\main\AndroidManifest.xml:47:19-47
-57            <intent-filter>
-57-->D:\app\projin\app\src\main\AndroidManifest.xml:48:13-52:29
-58                <action android:name="android.intent.action.MAIN" />
-58-->D:\app\projin\app\src\main\AndroidManifest.xml:49:17-69
-58-->D:\app\projin\app\src\main\AndroidManifest.xml:49:25-66
-59
-60                <category android:name="android.intent.category.LAUNCHER" />
-60-->D:\app\projin\app\src\main\AndroidManifest.xml:51:17-77
-60-->D:\app\projin\app\src\main\AndroidManifest.xml:51:27-74
-61            </intent-filter>
-62        </activity>
-63    </application>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:24:22-76
+13
+14    <application
+14-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:5:5-56:19
+15        android:allowBackup="true"
+15-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:6:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.3.1] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\f3d364c4591b4da0386e5d8846d9d728\core-1.3.1\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:7:9-43
+19        android:label="Binary Calculator"
+19-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:8:9-42
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:9:9-54
+21        android:supportsRtl="true"
+21-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:10:9-35
+22        android:testOnly="true"
+23        android:theme="@style/Theme.CAO" >
+23-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:11:9-41
+24        <activity android:name="com.example.cao19BIT0292.Contackus" />
+24-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:12:9-56
+24-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:12:19-44
+25        <activity
+25-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:13:9-16:50
+26            android:name="com.example.cao19BIT0292.divisionbi"
+26-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:14:13-39
+27            android:label="Result(19BIT0292)"
+27-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:15:13-46
+28            android:parentActivityName="com.example.cao19BIT0292.bd_i" />
+28-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:16:13-47
+29        <activity
+29-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:17:9-20:50
+30            android:name="com.example.cao19BIT0292.bd_in"
+30-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:18:13-34
+31            android:label="Input(19BIT0292)"
+31-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:19:13-45
+32            android:parentActivityName="com.example.cao19BIT0292.bd_i" />
+32-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:20:13-47
+33        <activity
+33-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:21:9-24:58
+34            android:name="com.example.cao19BIT0292.bd_i"
+34-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:22:13-33
+35            android:label="Input type(19BIT0292)"
+35-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:23:13-50
+36            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
+36-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:24:13-55
+37        <activity
+37-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:25:9-28:53
+38            android:name="com.example.cao19BIT0292.BOOTH"
+38-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:26:13-34
+39            android:label="Input(19BIT0292)"
+39-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:27:13-45
+40            android:parentActivityName="com.example.cao19BIT0292.bot_dec" />
+40-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:28:13-50
+41        <activity
+41-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:29:9-32:58
+42            android:name="com.example.cao19BIT0292.bot_dec"
+42-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:30:13-36
+43            android:label="Input type(19BIT0292)"
+43-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:31:13-50
+44            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
+44-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:32:13-55
+45        <activity
+45-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:33:9-36:53
+46            android:name="com.example.cao19BIT0292.BOOTH_MULTIPLICATION"
+46-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:34:13-49
+47            android:label="Result(19BIT0292)"
+47-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:35:13-46
+48            android:parentActivityName="com.example.cao19BIT0292.bot_dec" />
+48-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:36:13-50
+49        <activity
+49-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:37:9-40:58
+50            android:name="com.example.cao19BIT0292.Second"
+50-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:38:13-35
+51            android:label="INTPUT TYPE(19BIT0292)"
+51-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:39:13-51
+52            android:parentActivityName="com.example.cao19BIT0292.MainActivity" />
+52-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:40:13-55
+53        <activity
+53-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:41:9-44:52
+54            android:name="com.example.cao19BIT0292.ares"
+54-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:42:13-33
+55            android:label="Multiply Result(19BIT0292)"
+55-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:43:13-55
+56            android:parentActivityName="com.example.cao19BIT0292.Second" />
+56-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:44:13-49
+57        <activity
+57-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:45:9-48:52
+58            android:name="com.example.cao19BIT0292.add"
+58-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:46:13-32
+59            android:label="Input(19BIT0292)"
+59-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:47:13-45
+60            android:parentActivityName="com.example.cao19BIT0292.Second" />
+60-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:48:13-49
+61        <activity android:name="com.example.cao19BIT0292.MainActivity" >
+61-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:49:9-55:20
+61-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:49:19-47
+62            <intent-filter>
+62-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:50:13-54:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:51:17-69
+63-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:51:25-66
 64
-65</manifest>
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:53:17-77
+65-->D:\app\Android-studio_cao\app\src\main\AndroidManifest.xml:53:27-74
+66            </intent-filter>
+67        </activity>
+68        <activity
+68-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:27:9-44:20
+69            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+69-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:28:13-80
+70            android:excludeFromRecents="true"
+70-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:29:13-46
+71            android:exported="true"
+71-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:30:13-36
+72            android:launchMode="singleTask"
+72-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:31:13-44
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+73-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:32:13-72
+74            <intent-filter>
+74-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:33:13-43:29
+75                <action android:name="android.intent.action.VIEW" />
+75-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:17-69
+75-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:25-66
+76
+77                <category android:name="android.intent.category.DEFAULT" />
+77-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:17-76
+77-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:27-73
+78                <category android:name="android.intent.category.BROWSABLE" />
+78-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:17-78
+78-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:27-75
+79
+80                <data
+80-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:39:17-42:51
+81                    android:host="firebase.auth"
+81-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:40:21-49
+82                    android:path="/"
+82-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:41:21-37
+83                    android:scheme="genericidp" />
+83-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:42:21-48
+84            </intent-filter>
+85        </activity>
+86        <activity
+86-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:45:9-62:20
+87            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+87-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:46:13-79
+88            android:excludeFromRecents="true"
+88-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:47:13-46
+89            android:exported="true"
+89-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:48:13-36
+90            android:launchMode="singleTask"
+90-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:49:13-44
+91            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+91-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:50:13-72
+92            <intent-filter>
+92-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:51:13-61:29
+93                <action android:name="android.intent.action.VIEW" />
+93-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:17-69
+93-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:25-66
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:17-76
+95-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:27-73
+96                <category android:name="android.intent.category.BROWSABLE" />
+96-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:17-78
+96-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:27-75
+97
+98                <data
+98-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:39:17-42:51
+99                    android:host="firebase.auth"
+99-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:40:21-49
+100                    android:path="/"
+100-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:41:21-37
+101                    android:scheme="recaptcha" />
+101-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:42:21-48
+102            </intent-filter>
+103        </activity>
+104
+105        <service
+105-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:64:9-73:19
+106            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+106-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:65:13-101
+107            android:enabled="true"
+107-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:66:13-35
+108            android:exported="false" >
+108-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:67:13-37
+109            <intent-filter>
+109-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:68:13-72:29
+110                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+110-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:17-89
+110-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:25-86
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:17-76
+112-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:27-73
+113            </intent-filter>
+114        </service>
+115        <service
+115-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:74:9-80:19
+116            android:name="com.google.firebase.components.ComponentDiscoveryService"
+116-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:75:13-84
+117            android:directBootAware="true"
+117-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+118            android:exported="false" >
+118-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:76:13-37
+119            <meta-data
+119-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:77:13-79:85
+120                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+120-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:78:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\44fe79d2cac19c8ecaa9a4534eb1d52c\jetified-firebase-auth-20.0.4\AndroidManifest.xml:79:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-database:19.7.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\64586309a9c174e8202610efe122327c\jetified-firebase-database-19.7.0\AndroidManifest.xml:32:13-34:85
+123                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+123-->[com.google.firebase:firebase-database:19.7.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\64586309a9c174e8202610efe122327c\jetified-firebase-database-19.7.0\AndroidManifest.xml:33:17-109
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-database:19.7.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\64586309a9c174e8202610efe122327c\jetified-firebase-database-19.7.0\AndroidManifest.xml:34:17-82
+125            <!--
+126                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+127                clients to use it as well, by defining this registrar in their own core/common library.
+128            -->
+129            <meta-data
+129-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+130                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+130-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+132        </service>
+133
+134        <activity
+134-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\a63935de15513710d98bf227aa324a8b\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+135            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+135-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\a63935de15513710d98bf227aa324a8b\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\a63935de15513710d98bf227aa324a8b\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\a63935de15513710d98bf227aa324a8b\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+138
+139        <provider
+139-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+140            android:name="com.google.firebase.provider.FirebaseInitProvider"
+140-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+141            android:authorities="com.example.cao19BIT0292.firebaseinitprovider"
+141-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+142            android:directBootAware="true"
+142-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+143            android:exported="false"
+143-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+144            android:initOrder="100" />
+144-->[com.google.firebase:firebase-common:19.5.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\9b2ec3a49389295e09fe37e42c5e30ad\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+145
+146        <meta-data
+146-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\74483de84094d0d661b0d354666c2c5a\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+147            android:name="com.google.android.gms.version"
+147-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\74483de84094d0d661b0d354666c2c5a\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+148            android:value="@integer/google_play_services_version" />
+148-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\bhaum\.gradle\caches\transforms-2\files-2.1\74483de84094d0d661b0d354666c2c5a\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+149    </application>
+150
+151</manifest>

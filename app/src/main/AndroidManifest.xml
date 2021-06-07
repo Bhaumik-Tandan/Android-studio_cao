@@ -9,9 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CAO">
-        <activity android:name=".divisionbi"
+        <activity android:name=".Contackus"
+            android:label="CONTACT US"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".divisionbi"
             android:label="Result(19BIT0292)"
-            android:parentActivityName=".bd_i"></activity>
+            android:parentActivityName=".bd_i" />
         <activity
             android:name=".bd_in"
             android:label="Input(19BIT0292)"

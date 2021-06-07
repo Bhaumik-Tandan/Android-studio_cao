@@ -1736,6 +1736,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable img
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2153,6 +2154,7 @@ id snackbar_text
 id snap
 id snapMargins
 id spacer
+id splashProgress
 id spline
 id split_action_bar
 id spread
@@ -2315,6 +2317,7 @@ layout activity_contackus
 layout activity_divisionbi
 layout activity_main
 layout activity_second
+layout activity_sp
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout content_b_o_o_t_h__m_u_l_t_i_p_l_i_c_a_t_i_o_n

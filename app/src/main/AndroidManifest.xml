@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CAO">
-        <activity android:name=".Contackus"
+
+        <activity
+            android:name=".Contackus"
             android:label="CONTACT US"
-            android:parentActivityName=".MainActivity"></activity>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".divisionbi"
             android:label="Result(19BIT0292)"
@@ -48,7 +50,8 @@
             android:name=".add"
             android:label="Input(19BIT0292)"
             android:parentActivityName=".Second" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".Sp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

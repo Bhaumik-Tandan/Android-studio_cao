@@ -60,7 +60,8 @@
             android:name="com.example.cao19BIT0292.add"
             android:label="Input(19BIT0292)"
             android:parentActivityName="com.example.cao19BIT0292.Second" />
-        <activity android:name="com.example.cao19BIT0292.MainActivity" >
+        <activity android:name="com.example.cao19BIT0292.MainActivity" />
+        <activity android:name="com.example.cao19BIT0292.Sp" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

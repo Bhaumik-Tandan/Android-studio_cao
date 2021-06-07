@@ -16,6 +16,8 @@ com/example/cao19BIT0292/BOOTH.java
  com.example.cao19BIT0292.BOOTH
 com/example/cao19BIT0292/bd_i.java
  com.example.cao19BIT0292.bd_i
+com/example/cao19BIT0292/divisionbi.java
+ com.example.cao19BIT0292.divisionbi
 com/example/cao19BIT0292/bot_dec.java
  com.example.cao19BIT0292.bot_dec
 com/example/cao19BIT0292/SecondFragment.java
@@ -24,5 +26,6 @@ com/example/cao19BIT0292/BuildConfig.java
  com.example.cao19BIT0292.BuildConfig
 com/example/cao19BIT0292/MainActivity.java
  com.example.cao19BIT0292.MainActivity
-com/example/cao19BIT0292/divisionbi.java
- com.example.cao19BIT0292.divisionbi
+com/example/cao19BIT0292/Sp.java
+ com.example.cao19BIT0292.Sp
+ com.example.cao19BIT0292.Sp$1

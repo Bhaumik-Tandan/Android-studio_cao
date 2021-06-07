@@ -32,6 +32,10 @@
         "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\activity_bd_in.xml"
     },
     {
+        "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img.jpg.flat",
+        "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\drawable\\img.jpg"
+    },
+    {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
         "source": "D:\\app\\Android-studio_cao\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
     },
@@ -74,6 +78,10 @@
     {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bd_i.xml.flat",
         "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\activity_bd_i.xml"
+    },
+    {
+        "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sp.xml.flat",
+        "source": "D:\\app\\Android-studio_cao\\app\\src\\main\\res\\layout\\activity_sp.xml"
     },
     {
         "merged": "D:\\app\\Android-studio_cao\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
